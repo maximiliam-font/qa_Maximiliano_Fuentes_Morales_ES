@@ -284,23 +284,3 @@ nav ul li a:hover {
 .project-link i {
     margin-right: 8px; /* Espacio entre el ícono y el texto */
 }
-/* ------------------------------------- */
-/* VIDEO RESPONSIVO (Añadir a style.css) */
-/* ------------------------------------- */
-.video-container {
-    position: relative;
-    width: 100%;
-    /* 16:9 Aspect Ratio (56.25% de la altura de la anchura) */
-    padding-bottom: 56.25%; 
-    height: 0;
-    margin: 0 auto;
-    max-width: 800px; /* Limita el tamaño máximo del video */
-}
-
-.video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
