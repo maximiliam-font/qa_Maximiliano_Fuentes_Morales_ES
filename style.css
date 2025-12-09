@@ -262,3 +262,25 @@ nav ul li a:hover {
         gap: 20px;
     }
 }
+/* ------------------------------------- */
+/* ESTILO DE ENLACE DE PROYECTO */
+/* ------------------------------------- */
+.project-link {
+    display: inline-block;
+    padding: 8px 15px;
+    font-weight: bold;
+    color: var(--color-accent); /* Usa tu color principal */
+    text-decoration: none;
+    border: 2px solid var(--color-accent);
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.project-link:hover {
+    background-color: var(--color-accent);
+    color: #FFFFFF; /* Texto blanco al pasar el mouse */
+}
+
+.project-link i {
+    margin-right: 8px; /* Espacio entre el ícono y el texto */
+}
