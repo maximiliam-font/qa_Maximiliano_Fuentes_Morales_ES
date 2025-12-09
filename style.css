@@ -284,3 +284,20 @@ nav ul li a:hover {
 .project-link i {
     margin-right: 8px; /* Espacio entre el ícono y el texto */
 }
+
+/* ------------------------------------- */
+/* ESTILO DE BOTÓN DE VIDEO (PROMINENTE) */
+/* ------------------------------------- */
+
+.video-btn {
+    /* Hace el botón un poco más grande y llamativo */
+    padding: 18px 40px; 
+    margin: 20px auto 30px auto; /* Centra y añade margen */
+    font-size: 1.1rem;
+    display: block; /* Ocupa todo el ancho si es necesario, pero lo centramos con auto */
+    max-width: 350px; /* Limita el ancho para que no se extienda demasiado */
+}
+
+.video-btn i {
+    margin-right: 10px;
+}
