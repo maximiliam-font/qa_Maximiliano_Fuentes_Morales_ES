@@ -301,3 +301,34 @@ nav ul li a:hover {
 .video-btn i {
     margin-right: 10px;
 }
+/* ------------------------------------- */
+/* VIDEO CV BUTTON (CENTRADO + ESTILO) */
+/* ------------------------------------- */
+
+.video-section {
+    text-align: center;
+    margin-top: -40px;
+    margin-bottom: 40px;
+}
+
+.video-btn {
+    display: inline-block;
+    background-color: var(--color-accent);
+    color: var(--color-heading);
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    font-family: var(--font-heading);
+    letter-spacing: 0.05em;
+    transition: 0.3s ease;
+}
+
+.video-btn i {
+    margin-right: 10px;
+}
+
+.video-btn:hover {
+    background-color: #99988f; /* tono más oscuro del accent */
+    transform: translateY(-2px);
+}
